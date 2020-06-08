@@ -66,7 +66,7 @@ class RestaurantComponent extends React.Component<PropertyWithHistory> {
     const restaurantData = [...this.state.data];
     restaurantData.filter((el: Restaurants) => {
       if (el.id === restaurantId) {
-        el.favorite = true;
+        el.favorite = el.favorite ? false : true;
       }
     });
     this.setState({ data: restaurantData });
