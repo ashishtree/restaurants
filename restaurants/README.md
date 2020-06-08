@@ -41,5 +41,5 @@ Ran all test suites.
 1- Implemented filter like "Sort By Availability Status and selected criteria DESC" means all the time Open restaurants will be on the top then Order Ahead
 and then Closed.
 2- Search Implemented like "name.indexOf(searchCriteria) !== -1" means search criteria should be in the name at any place.
-3- If you want tp add more sorting options just add that in the "db.json (In real scenario API)" and in sorting values under config in config/index.ts. No need to tuch codebase.
+3- If you want to add more sorting options just add that in the "db.json (In real scenario API)" and in sorting values under config in config/index.ts. No need to touch codebase.
 4- Implemented Top Rastaurants sorting as well.
