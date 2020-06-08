@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Tanoshii Sushi",
+    "status": "open",
+    "favorite": false,
+    "image": "http://localhost:3006/images/restaurant_logo.jpg",
+    "sortingValues": {
+      "shortStatusName": "oa",
+      "bestMatch": 0.0,
+      "newest": 96.0,
+      "ratingAverage": 4.5,
+      "distance": 1190,
+      "popularity": 17.0,
+      "averageProductPrice": 1536,
+      "deliveryCosts": 200,
+      "minCost": 1000,
+      "topRestaurant": 20234.5
+    }
+  }
+]

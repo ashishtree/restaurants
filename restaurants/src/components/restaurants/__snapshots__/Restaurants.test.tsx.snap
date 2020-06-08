@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Restaurant Component Render Restaurant Component Render should render Restaurant Component 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Memo(Connect(RestaurantComponent))
+    RestaurantsData={
+      Array [
+        Object {
+          "favorite": false,
+          "id": 1,
+          "image": "http://localhost:3006/images/restaurant_logo.jpg",
+          "name": "Tanoshii Sushi",
+          "sortingValues": Object {
+            "averageProductPrice": 1536,
+            "bestMatch": 0,
+            "deliveryCosts": 200,
+            "distance": 1190,
+            "minCost": 1000,
+            "newest": 96,
+            "popularity": 17,
+            "ratingAverage": 4.5,
+            "shortStatusName": "oa",
+            "topRestaurant": 20234.5,
+          },
+          "status": "open",
+        },
+      ]
+    }
+    getRestaurantsData={[MockFunction]}
+    searchRestaurants={[MockFunction]}
+    status="LOADING"
+  />
+</Context.Provider>
+`;

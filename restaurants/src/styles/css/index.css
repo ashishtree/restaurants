@@ -1,0 +1,298 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/Roboto-Regular.ttf");
+  src: local("Roboto"), url("../font/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../font/Roboto-Black.ttf");
+  src: local("Roboto-Black"), url("../font/Roboto-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src: url("../font/Roboto-BlackItalic.ttf");
+  src: local("Roboto-BlackItalic"), url("../font/Roboto-BlackItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../font/Roboto-Bold.ttf");
+  src: local("Roboto-Bold"), url("../font/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url("../font/Roboto-BoldItalic.ttf");
+  src: local("Roboto-BoldItalic"), url("../font/Roboto-BoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url("../font/Roboto-Italic.ttf");
+  src: local("Roboto-Italic"), url("../font/Roboto-Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../font/Roboto-Light.ttf");
+  src: local("Roboto-Light"), url("../font/Roboto-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url("../font/Roboto-LightItalic.ttf");
+  src: local("Roboto-LightItalic"), url("../font/Roboto-LightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../font/Roboto-Medium.ttf");
+  src: local("Roboto-Medium"), url("../font/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: url("../font/Roboto-MediumItalic.ttf");
+  src: local("Roboto-MediumItalic"), url("../font/Roboto-MediumItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../font/Roboto-Thin.ttf");
+  src: local("Roboto-Thin"), url("../font/Roboto-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url("../font/Roboto-ThinItalic.ttf");
+  src: local("Roboto-ThinItalic"), url("../font/Roboto-ThinItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+.navBar {
+  background-color: #ff8000;
+  color: white;
+  padding: 10px;
+  margin-bottom: 12px; }
+  .navBar li {
+    padding: 10px 0; }
+    .navBar li .navbar__link {
+      color: #fff;
+      text-decoration: none; }
+      .navBar li .navbar__link--active {
+        text-decoration: underline; }
+    @media screen and (min-width: 768px) {
+      .navBar li {
+        padding: 0 15px; } }
+  .navBar button {
+    font-size: 30px;
+    margin-right: 30px;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    float: right; }
+    @media screen and (min-width: 768px) {
+      .navBar button {
+        display: none; } }
+  .navBar .nav-links {
+    height: 0;
+    overflow: hidden;
+    list-style-type: none;
+    font-weight: bold; }
+    @media screen and (min-width: 768px) {
+      .navBar .nav-links {
+        height: auto;
+        display: flex; } }
+  .navBar .show-nav {
+    height: 120px; }
+
+.footer li {
+  display: inline-block;
+  padding: 2rem;
+  font-size: 14px;
+  color: #bbbcbf; }
+  @media screen and (max-width: 865px) {
+    .footer li {
+      padding: 0.6rem; } }
+
+.restaurant-listing {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 2px;
+  border: 1px solid #ebebeb;
+  margin: 8px 0;
+  min-height: 120px;
+  overflow: hidden; }
+  .restaurant-listing .logo {
+    flex: 0 0 138px;
+    text-align: center;
+    border-right: 1px solid #ebebeb;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; }
+    .restaurant-listing .logo .like {
+      position: absolute;
+      top: 5px;
+      left: 3px;
+      cursor: pointer; }
+      .restaurant-listing .logo .like .fa-heart {
+        color: red;
+        font-size: 20px; }
+    .restaurant-listing .logo .logo-img {
+      z-index: 1;
+      max-width: 80px;
+      text-align: left;
+      font-size: 12px;
+      position: absolute;
+      width: 100%;
+      top: 45%;
+      transform: translateY(-50%);
+      margin: auto;
+      left: 0;
+      right: 0; }
+      .restaurant-listing .logo .logo-img img {
+        width: 100%;
+        height: auto; }
+    .restaurant-listing .logo .ratings {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      z-index: 2;
+      padding-bottom: 3px;
+      position: absolute;
+      width: 100%;
+      bottom: 0; }
+      @media (min-width: 570px) {
+        .restaurant-listing .logo .ratings {
+          padding-bottom: 6px; } }
+      .restaurant-listing .logo .ratings .fa,
+      .restaurant-listing .logo .ratings .fas,
+      .restaurant-listing .logo .ratings .far {
+        font-size: 12px; }
+  .restaurant-listing .details {
+    flex: 1;
+    min-height: 120px;
+    line-height: 1.7;
+    font-size: 15px;
+    padding: 8px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; }
+    .restaurant-listing .details .name {
+      line-height: 22px;
+      text-align: left;
+      color: #0a3847;
+      margin: 0 0 4px;
+      font-weight: 600;
+      padding: 0;
+      font-size: 18px;
+      max-height: 66px;
+      overflow: hidden; }
+      .restaurant-listing .details .name .opening__status {
+        font-size: 10px;
+        padding: 3px 5px;
+        border-radius: 50px;
+        color: #fff;
+        margin-left: 12px; }
+      .restaurant-listing .details .name .open {
+        background-color: green; }
+      .restaurant-listing .details .name .order-ahead {
+        background-color: orange; }
+      .restaurant-listing .details .name .closed {
+        background-color: red; }
+    .restaurant-listing .details .info {
+      font-size: 12px;
+      line-height: 2em;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-top: 6%; }
+      .restaurant-listing .details .info .other-info {
+        width: 100%;
+        line-height: 18px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; }
+        .restaurant-listing .details .info .other-info div {
+          margin-right: 16px; }
+        .restaurant-listing .details .info .other-info .hide {
+          display: none; }
+
+.search-filter-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 20px 0; }
+  .search-filter-container div {
+    flex: 1; }
+  @media screen and (max-width: 768px) {
+    .search-filter-container {
+      flex-direction: column; }
+      .search-filter-container div {
+        margin-bottom: 12px; } }
+  .search-filter-container .search-box {
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+    background-image: url("https://www.w3schools.com/howto/searchicon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+    border-radius: 4px;
+    outline: none; }
+  .search-filter-container .filter-box {
+    display: inline-block;
+    height: 45px;
+    width: 70%;
+    padding: 2px 10px 2px 2px;
+    outline: none;
+    color: #74646e;
+    border: 1px solid #c8bfc4;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+    background: #fff; }
+
+html,
+body,
+#root,
+.page-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif; }
+
+.vertical-space {
+  height: 5rem; }
+
+#root {
+  margin: 0 250px; }
+  @media screen and (max-width: 1320px) {
+    #root {
+      margin: 0 100px; } }
+  @media screen and (max-width: 768px) {
+    #root {
+      margin: 0 10px; } }
