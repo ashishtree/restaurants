@@ -17,7 +17,7 @@
 
 ## View Project on the browser
 
-1- Download the project from '';
+1- Download the project from 'https://github.com/ashishtree/restaurants/tree/master/restaurants';
 2- Type command (npm install) in the project directory
 3- Type command (npm start) to view project on the browser
 4- open [http://localhost:3006/restaurants](http://localhost:3006/restaurants) to view project on the browser
